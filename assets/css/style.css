@@ -1,3 +1,7 @@
+html, body {
+    cursor: url('./../images/favicon.ico'), default;
+}
+
 nav {
     font-family: Roboto;
     background: #FFF;
@@ -38,6 +42,33 @@ img {
     /*text-align: right;*/
 }
 
+#slime-container {
+    background: #9575CD;
+    font-family: 'K2D', sans-serif;
+}
+
 #slime {
     margin-top: 80px;
+    color: #9575CD;
+}
+
+.page-footer {
+    background: #FFF;
+    font-family: 'K2D', sans-serif;
+    color: #9575CD;
+}
+
+.contact-icons {
+    width: 50px;
+    height: 50px;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
