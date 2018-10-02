@@ -1,0 +1,43 @@
+nav {
+    font-family: Roboto;
+    background: #FFF;
+}
+
+nav .brand-logo {
+    color: #9575CD;
+    font-family: 'Monoton', cursive;
+}
+
+nav ul a {
+    color: #9575CD;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: 'K2D', sans-serif;
+}
+
+ul:hover a:hover {
+    background-color: #EDE7F6;
+}
+
+body {
+    background: #EDE7F6;
+}
+
+#about {
+    margin-top: 80px;
+    font-family: 'K2D', sans-serif;
+}
+
+img {
+    max-height: 350px;
+    border-radius: 5px;
+}
+
+#about-info span {
+    font-size: 10pt;
+    /*text-align: right;*/
+}
+
+#slime {
+    margin-top: 80px;
+}
