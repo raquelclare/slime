@@ -27,12 +27,23 @@ body {
     background: #EDE7F6;
 }
 
+.parallax-container {
+  height: 623px;
+  color: purple;
+  font-family: 'Monoton', cursive;
+  font-weight: bold;
+}
+
+#intro img {
+    height: 200px;
+}
+
 #about {
     margin-top: 80px;
     font-family: 'K2D', sans-serif;
 }
 
-img {
+#about-photo img {
     max-height: 350px;
     border-radius: 5px;
 }
