@@ -1,7 +1,19 @@
+/*------------------------ MAIN ------------------------*/
 html, body {
     cursor: url('./../images/favicon.ico'), default;
 }
 
+body {
+    background: #EDE7F6;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+    flex: 1 0 auto;
+}
+
+/*------------------------ NAV ------------------------*/
 nav {
     font-family: Roboto;
     background: #FFF;
@@ -20,13 +32,10 @@ nav ul a {
 }
 
 ul:hover a:hover {
-    background-color: #EDE7F6;
+    background-color: transparent;
 }
 
-body {
-    background: #EDE7F6;
-}
-
+/*------------------------ INTRO ------------------------*/
 .parallax-container {
   height: 623px;
   color: purple;
@@ -38,6 +47,7 @@ body {
     height: 200px;
 }
 
+/*------------------------ ABOUT ------------------------*/
 #about {
     margin-top: 80px;
     font-family: 'K2D', sans-serif;
@@ -53,6 +63,7 @@ body {
     /*text-align: right;*/
 }
 
+/*------------------------ SLIME ------------------------*/
 #slime-container {
     background: #9575CD;
     font-family: 'K2D', sans-serif;
@@ -63,6 +74,7 @@ body {
     color: #9575CD;
 }
 
+/*------------------------ FOOTER ------------------------*/
 .page-footer {
     background: #FFF;
     font-family: 'K2D', sans-serif;
@@ -72,14 +84,4 @@ body {
 .contact-icons {
     width: 50px;
     height: 50px;
-}
-
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-}
-
-main {
-    flex: 1 0 auto;
 }
